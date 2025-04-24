@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #202020;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: orange;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: green;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+#secao1 {
+    margin-top: 0;
+    padding-top: 150px;
+    font-size: xx-large;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,1), rgb(0,0,0,0)), url("img/pizza.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#secao1 a{
+    text-decoration: none;
+}
+
+#but{
+    display: block;
+    background-color: orange;
+    color: black;
+    font-size: large;
+    margin: 0 auto;
+    border-radius: 5px;
+    transform: scale(1.7);
+}
+
+.title{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#secao2 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+    gap: 30px
+}
+
+.card{
+    background-color: rgb(230,230,230);
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+.imagemCard{
+    width: 300px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+#secao3 {
+    margin-top: 0;
+    padding-top: 20px;
+    background-color: black;
+    background-image: linear-gradient(rgba(0,0,0,0), rgb(0,0,0,1)), url("img/pizza.png");
+    height: 150px;
+    color: whitesmoke;
+    text-align: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+#secao4 p{
+    font-size: small;
+    padding-left: calc(50% - 210px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #202020;
+    color: white;
+    position: relative;
+}
