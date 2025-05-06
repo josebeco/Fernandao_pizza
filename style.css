@@ -113,20 +113,38 @@ section {
     padding-left: calc(50% - 210px);
 }
 
-#secao5 {
+
+.fnc label{
+    font-weight: bold;
+    font-size: large;
 }
 
 .sugform{
-    padding-left: calc(50% - 60px);
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    background-color: rgb(230,230,230);
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
 
-.sugform label{
-    font-weight: ;
+.check{
+    font-weight: normal;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.sugform #descricao{
-    
+.sub{
+    border-radius: 5px;
+    width: 100px;
+    background-color: rgb(75, 75, 250);
+    font-size: large;
+    font-weight: bold;
 }
+
 footer {
     text-align: center;
     padding: 10px 0;
