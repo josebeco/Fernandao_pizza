@@ -113,6 +113,20 @@ section {
     padding-left: calc(50% - 210px);
 }
 
+#secao5 {
+}
+
+.sugform{
+    padding-left: calc(50% - 60px);
+}
+
+.sugform label{
+    font-weight: ;
+}
+
+.sugform #descricao{
+    
+}
 footer {
     text-align: center;
     padding: 10px 0;
